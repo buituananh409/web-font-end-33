@@ -1,0 +1,30 @@
+#main{
+    width: 100%;
+    border: 2px blue solid;
+
+}
+#divone{
+
+    width: 100px;
+    height: 100px;
+   float: right;
+    background-color: maroon;
+    
+    
+}
+#divtwo{
+    width: 100px;
+    height: 150px;
+    background-color: lime;
+    float: right;
+    
+    
+    
+}
+div{
+    clear: both;
+}
+#area{
+    color: maroon;
+    font-size: 500px;
+}
