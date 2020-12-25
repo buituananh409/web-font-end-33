@@ -1,0 +1,25 @@
+div{
+    height: 200px;
+    width: 1000px;
+    border: 2px;
+    background-color: whitesmoke;
+    display: inline-block;
+    padding-top: 20px;
+    padding: 30px;
+    display: inline-block;
+    
+
+    
+}
+div p{
+    display: inline-block;
+}
+
+.check1{
+    display: inline-block;
+    padding-left: 10px;  
+    
+}
+
+    
+

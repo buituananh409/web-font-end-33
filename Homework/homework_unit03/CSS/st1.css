@@ -1,0 +1,94 @@
+#gt1{
+    height: 200px;
+    width: 150px;
+    background-color: whitesmoke ;
+    text-align: center;
+    display: inline-block;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: tomato;
+   border: 2px gray solid;
+   padding-top: 20px;
+
+}
+#gt2{
+    height: 200px;
+    width: 150px;
+    background-color: whitesmoke ;
+    text-align: center;
+    display: inline-block;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: tomato;
+    border: 2px gray solid;
+    padding-top: 20px;
+}
+#gt3{
+    height: 200px;
+    width: 150px;
+    background-color: whitesmoke ;
+    text-align: center;
+    display: inline-block;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: tomato;
+    border: 2px gray solid;
+    padding-top: 20px;
+}
+#gt4{
+    height: 200px;
+    width: 150px;
+    background-color: whitesmoke ;
+    text-align: center;
+    display: inline-block;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: tomato;
+    border: 2px gray solid;
+    padding-top: 20px;
+}
+#gt5{
+    height: 200px;
+    width: 150px;
+    background-color: whitesmoke ;
+    text-align: center;
+    display: inline-block;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: tomato;
+    border: 2px gray solid;
+    padding-top: 20px;
+}
+#gt6{
+    height: 200px;
+    width: 150px;
+    background-color: whitesmoke ;
+    text-align: center;
+    display: inline-block;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: tomato;
+    border: 2px gray solid;
+    padding-top: 20px;
+}
+p:hover{
+    color: teal;
+}
+#gt1:hover{
+    border-color:lightcoral;
+}
+#gt2:hover{
+    border-color: lightseagreen;
+}
+#gt3:hover{
+    border-color: lime;
+}
+#gt4:hover{
+    border-color: maroon;
+}
+#gt5:hover{
+    border-color: midnightblue;
+}
+#gt6:hover{
+    border-color: orangered ;
+}
