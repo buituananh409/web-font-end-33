@@ -1,0 +1,236 @@
+.main{
+    height: 700px;
+    width: 1220px;
+    
+}
+.header{
+    height: 100px;
+    width: 1220px;
+    font-family: Arial;
+    
+}
+body{
+    background-size: 1500px;
+
+}
+.tieude{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 20px;
+    
+    font-weight: bold;
+    font-style: italic;
+}
+.more1{
+    padding-top: 2px;
+}
+.more ul{
+    list-style: none;
+    text-align: center;
+}
+.more ul li{
+    display: inline-block;
+    padding-left: 30px;
+}
+.main2{
+    height: 540px;
+    width: 1220px;
+    
+}
+.menuleft{
+    height: 540px;
+    width: 200px;
+    font-family: arial;
+    
+}
+.menuleft ul {
+    list-style: none;
+}
+.menuleft ul li{
+    padding-top: 10px;
+}
+
+
+.mid{
+    width: 1020px;
+    height: 540px;
+    
+    position: absolute;
+    left: 212px;
+    bottom: 40px;
+}
+.mid1{
+    width: 170px;
+    height: 150px;
+    border: 1px solid  gray;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: whitesmoke;
+    font-family: arial;
+    
+    
+}
+.mid1 img{
+    max-width: 170px;
+    max-height: 127px;
+    margin-top: 5px;
+}
+
+
+.mid2{
+    width: 170px;
+    height: 150px;
+    border: 1px solid  gray;
+    margin-left: 10px;
+    position: absolute;
+    left: 200px;
+    bottom: 378px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: whitesmoke;
+    font-family: arial;
+    
+}
+.mid2 img{
+    max-width: 170px;
+    max-height: 125px;
+    height: 130px;
+    margin-top: 5px;
+
+}
+.mid3{
+    width: 170px;
+    height: 150px;
+    border: 1px solid gray;
+    margin-left: 10px;
+    position: absolute;
+    left: 395px;
+    bottom: 378px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: whitesmoke;
+    font-family: arial;
+}
+.mid3 img{
+    max-width: 170px;
+    height: 125px;
+    margin-top: 5px;
+}
+.mid4{
+    width: 170px;
+    height: 150px;
+    border: 1px solid gray;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: whitesmoke;
+    font-family: arial;
+}
+.mid4 img{
+    max-width: 170px;
+    height: 125px;
+    margin-top: 5px;
+}
+.mid5{
+    width: 170px;
+    height: 150px;
+    border: 1px solid  gray;
+    margin-left: 10px;
+    position: absolute;
+    left: 200px;
+    bottom: 205px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: whitesmoke;
+    font-family: arial;
+}
+.mid5 img{
+    max-width: 170px;
+    height: 125px;
+    margin-top: 5px;
+}
+.mid6{
+    width: 170px;
+    height: 150px;
+    border: 1px solid  gray;
+    margin-left: 10px;
+    margin-top: 20px;
+    position: absolute;
+    left: 395px;
+    bottom: 205px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: whitesmoke;
+    font-family: arial;
+}
+.mid6 img{
+    max-width: 170px;
+    margin-top: 5px;
+    height: 125px;
+}
+.mid7{
+    width: 170px;
+    height: 150px;
+    border: 1px solid  gray;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: whitesmoke;
+    font-family: arial;
+}
+.mid7 img{
+    max-width: 170px;
+    margin-top: 5px;
+    height: 125px;
+}
+
+.banquyen{
+   padding-left: 20px;
+   padding-top: 15px;
+}
+.more2 ul{
+    list-style: none;
+    position: absolute;
+    left: 300px;
+    bottom: 1px;
+    top: 655px;
+    
+    
+
+}.more2 ul li{
+    display: inline-block;
+    padding-left: 20px;
+    
+}
+.more1:hover{
+    color: lightcoral;
+    text-decoration: underline
+}
+.list1:hover{
+    color: lightskyblue;
+   text-decoration:underline;
+}
+
+   
+
+
+
+    

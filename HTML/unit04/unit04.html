@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai 4</title>
+    <style type="text/css">
+    body{
+        height: 5000px;
+
+    }
+    .container{
+        border: 3px black solid;
+        display: inline-block;
+        position: relative;
+    }
+    .container div{
+        width: 100px;
+        height: 100px;
+        float: left;
+        color: wheat;
+        text-align: center;
+        line-height: 100px;
+    }
+    .container::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .one{
+        background-color: violet;
+        z-index: 10;
+        position: relative;
+    }
+    .two{
+        background-color: tomato;
+        z-index: 11;
+        position: relative;
+    }
+    .three{
+        background-color: yellowgreen;
+        position: relative;
+        z-index: 13;
+        
+    }
+    .four{
+        background-color: teal;
+        position: absolute  ;
+        top: 20px;
+        left: 20px;
+        z-index: 15;
+    }
+    .div-fix{
+        width: 100px;
+        height: 100px;
+        background-color: turquoise;
+        position: fixed;
+        right: 0;
+    }
+    .div-test{
+        width: 200px;
+        height: 100px;
+        border: 1px red solid;
+        margin-top: 50px;
+        overflow:scroll;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+        <div class="four">4</div>
+        <div class="five">5</div>
+        
+    </div>
+    <div class="div-fix">6</div>
+    <div class="div-test">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempore commodi aliquid assumenda enim, nobis aliquam dolorum id cum tempora asperiores, fugit minus ex sunt minima, aut officiis ipsam dignissimos.
+
+    </div>
+    
+    
+</body>
+</html>
