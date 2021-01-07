@@ -1,0 +1,45 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+ul, ol{
+	list-style: none;
+}
+.card{
+	width: 30%;
+	background-color: #c8c8c845;
+	position: relative;
+}
+.card-header img{
+	width: 100%;
+}
+.card-body{
+	background-color: #c8c8c845;
+	position: absolute;
+	top: 100%;
+	transition: top 1s ease-in;
+}
+.card-body h5{
+	font-size: 20px;
+	color: blue;
+}
+.card:hover .card-body{
+	top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

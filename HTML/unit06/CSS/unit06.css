@@ -1,0 +1,65 @@
+.mydiv1{
+    width: 100px;
+    height: 200px;
+    background-color: blueviolet;
+    position: relative;
+    animation-name: doimau;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes doimau{
+    from {
+        background: blueviolet;
+        left: 10px;
+        
+    }
+    to {
+        background: brown;
+        left: 500px;
+    }
+}
+.mydiv2{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    transition: width 5s, height 3s;
+
+}
+.mydiv2:hover{
+    width: 100px;
+    height: 50px;
+    background-color: darkgoldenrod;
+}
+.mydiv3{
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+}
+.mydiv3:hover{
+    transform: rotate(40deg);
+    transform: rotateX(50deg);
+    transform: rotateY(50deg);
+    transform: scale(3,4);
+}
+.mydiv4{
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 2px 10px maroon;
+    
+}
+p{
+    font-size: 20px;
+    text-shadow: 10px 20px 2px aqua;
+}
+.mydiv5{
+    width: 100px;
+    height: 100px;
+    
+    
+    background-color: rgba(0,255,196,0.5);
+   
+}
+
+
