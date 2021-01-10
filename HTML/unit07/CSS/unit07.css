@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style: none;
+}
+.container{
+    width: 70%;
+    background-color: whitesmoke;
+    padding: 20px;
+
+}
+.card{
+    width: 25%;
+    background-color: wheat;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 10px;
+    border: 1px solid black   ;
+    
+    
+}
+.card img{
+    width: 100%;
+}
+.avatar h4{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    text-align: center;
+    padding-top: 10px;
+}
+.avatar p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    color: gray;
+}
+.thongtin{
+    position: absolute;
+    background-color: whitesmoke;
+    top: 100%;
+    transition: top 1s ease-in;
+}
+.thongtin h3{
+    color: orange;
+    font-size: 15px;
+   
+    text-align: center;
+    padding-top: 20px;
+    
+    
+}
+.thongtin span{
+    padding: 20px;
+    padding-top: 20px;
+    display: inline-block;
+    color: gray;
+    
+}
+.card:hover .thongtin{
+    top: 0;
+    bottom: 0;
+}
+@media all and (max-width: 768px){
+    .card {
+        width: 50%;
+        margin-top: 10px;
+    }
+}
+@media all and (max-width: 520px){
+    .card{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
