@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpo rt" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" name="frm">
+        <input type="text" id="ten" name="ten" value="TA">
+        <input type="email" name="email">
+
+        <input type="radio" name="gender" value="male">NAM
+        <input type="radio" name="gender" value="female">NU
+        <input type="radio" name="gender" value="other">KHAC
+
+        <input type="button" name="" id="myButton" onclick="testJS()" value="Submit">
+    </form>
+    <script type="text/javascript">
+    function testJS(){
+        console.log(document.frm.ten.value);
+        console.log(document.frm.email.value);
+        for(var i = 0; i < document.frm.gender.length; i++){
+            if(document.frm.gender[i].checked){
+                console.log(document.frm.gender[i].checked);
+                console.log(document.frm.gender[i].value);
+            }
+        }
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unit09</title>
+</head>
+<body>
+    <p id="lop1" >HELLO</p>
+    <a href="">hahaha</a>
+    <span id="textID1" class="textClass1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, vero!</span>
+    <p class="textClass">HI</p>
+    <button onclick="testJS()">Click Me</button>
+    <script type="text/javascript">
+        var myelement = document.getElementById('lop1');
+        console.log(myelement);
+        console.log(document.getElementsByClassName('textClass'));
+        console.log(document.getElementsByTagName('p'));
+        console.log(myelement.innerHTML); //GET
+        document.getElementById('lop1').innerHTML = '<a href="">hahaha</a>';
+        document.getElementById('lop1').className='textclasss3456';
+
+        var danhSachLop = document.getElementById('textID1').className; // lay ra class hien tai
+        danhSachLop += ' textClass2';
+        console.log(danhSachLop);
+        document.getElementById('textID1').className = danhSachLop;
+
+        function testJS(){
+            document.getElementById('textID1').style.color = "red";
+        }
+
+
+
+
+
+    </script>
+    
+    
+</body>
+</html>
