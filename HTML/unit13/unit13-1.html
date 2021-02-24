@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <style type="text/css">
+        .owl-item{
+            width: 300px !important; 
+        }
+        .item{
+            height: 100px;
+        }
+
+        #item1{
+            background-color: burlywood;
+        }
+
+        #item2{
+            background-color: skyblue;
+        }
+
+        #item3{
+            background-color: violet;
+        }
+
+        #item4{
+            background-color: blueviolet;
+        }
+
+        #item5{
+            background-color: brown;
+        }
+
+        #item6{
+            background-color: goldenrod;
+        }
+
+        #item7{
+            background-color: greenyellow;
+        }
+    </style>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel();
+        });
+    </script>
+</head>
+<body>
+    <div class="owl-carousel">
+        <div class="item" id="item1">Item 1</div>
+        <div class="item" id="item2">Item 2</div>
+        <div class="item" id="item3">Item 3</div>
+        <div class="item" id="item4">Item 4</div>
+        <div class="item" id="item5">Item 5</div>
+        <div class="item" id="item6">Item 6</div>
+        <div class="item" id="item7">Item 7</div>
+    </div>
+    
+</body>
+</html>

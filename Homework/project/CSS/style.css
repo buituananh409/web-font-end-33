@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+}
+	
+a{	
+	font-style: none;
+}
+* hr{
+	height: 3px;
+	width: 50px;
+}
+
+ul li {
+	list-style: none;
+}
+.toTop {
+	bottom: 0 !important;
+	right: 0 !important;
+
+}
+
+header {
+	width: 100%;
+}
+header .main-menu a img:hover {
+	border: 3px outset #939191;
+}
+header .banner {
+	padding-top: 66px;
+	position: relative;
+}
+	.banner img {
+		height: 400px;
+		width: 100%;
+	}
+	.banner h1 {
+		color: whitesmoke;
+	}
+	.banner .button {
+		font-weight: bold;
+		color: white;
+	}
+	.banner .button a {
+		color: white;
+	}
+	.banner .loading {
+		position: absolute;
+		bottom: 10px;
+		left: 49%;
+	}
+	.home {
+		width: 100%;
+		position: absolute;
+		top: 40%;
+	}
+	.card-custom{
+		background: none !important;
+		border: none !important;
+	}
+	.collapse .active {
+		border-bottom: 2px solid yellow;
+	}
+		
+	
+	.firstTitle .card {
+		border: none;
+	}
+	.construction .row .card {
+		border: none;
+	}
+	.construction .row .card img {
+		height: 200px;
+	}
+
