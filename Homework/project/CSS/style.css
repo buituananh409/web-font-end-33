@@ -72,3 +72,93 @@ header .banner {
 		height: 200px;
 	}
 
+.item1{
+	display: block;
+	width: 30%;
+	text-align: center;
+	border: 1px grey solid;
+	padding: 20px;
+	background-color: whitesmoke;
+	margin-left: 370px;
+	padding: 20px 20px;
+}
+.card-body{
+	text-align: center;
+
+}
+.card-item1{
+	padding: 20px 20px ;
+	
+	width: 20%;
+	float: left;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: whitesmoke;
+	
+	margin-left: 100px;
+	
+	
+}
+.contact-us{
+	clear: both;
+}
+.infor{
+	width: 40%;
+	
+	padding: 50px 50px;
+	float: left;
+	color: white;
+}
+.form{
+	display: block;
+	padding: 20px;
+	width: 60%;
+	float: left;
+	padding-left: 100px;
+	padding-top: 100px;
+	
+}
+input{
+	padding: 20px 20px;
+	margin: 20px 20px;
+	width: 60%;
+}
+button {
+	background-color: orangered;
+	width: 60%;
+	padding: 20px 20px;
+	margin-left: 20px;
+	border-radius: 5px 5px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+
+	
+}
+
+
+.map-container{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+	clear: both;
+}
+.map-container iframe{
+	left:0;
+	top:0;
+	height:300px;
+	width:100%;
+	position:absolute;
+}
+.text-center {
+	background-color: 
+}
+.text-center p {
+	color: gray;
+	padding-top: 20px;
+}
+
+	
+
+	
+
+
